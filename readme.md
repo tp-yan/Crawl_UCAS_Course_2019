@@ -5,12 +5,12 @@
 本机上测试环境：
 + python 3.7.x（估计3.5以上都没问题）
 + selenium (在控制台输入`pip install selenium`安装即可)
-+ ChromeDriver.exe + Chrome浏览器，ChromeDriver.exe驱动下载地址：http://chromedriver.chromium.org/downloads，**必须保证**驱动与浏览器版本对应！！
++ ChromeDriver.exe + Chrome浏览器，ChromeDriver.exe驱动下载地址：http://chromedriver.chromium.org/downloads **必须保证**驱动与浏览器版本对应！！
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190627081612507.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4MTkzMDE5,size_16,color_FFFFFF,t_70)
 + 最后就是必备的国科大教务网账号
 
 #### 2.下载爬虫程序
-可以去我的GitHub下的Crawl_UCAS_Course_2019 repository： https://github.com/tp-yan/Crawl_UCAS_Course_2019 ，下载程序zip压缩包，欢迎fork。
+可以去我的GitHub Crawl_UCAS_Course_2019 repository： https://github.com/tp-yan/Crawl_UCAS_Course_2019 ，`clone or download `zip压缩包，欢迎fork和star。
 #### 3.在本机执行
 1. 进入Crawl_UCAS_Course_2019文件夹下，内容应该如下（一定要注意把chromedriver.exe换成你自己下载的，必须与你本机Chrome浏览器版本一致）：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190627084703275.png)
@@ -21,7 +21,6 @@
 5. **说明**：每次启动程序，若原文件夹下存在已下载资源，则会清空该文件下所有文件后重新下载！！
 #### 4.运行截图
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190627085947497.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4MTkzMDE5,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190627084552390.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4MTkzMDE5,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190627084623983.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4MTkzMDE5,size_16,color_FFFFFF,t_70)
 最后爬取结果如下：
 ![课程资源](https://img-blog.csdnimg.cn/2019062709005134.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4MTkzMDE5,size_16,color_FFFFFF,t_70)
@@ -40,7 +39,7 @@ def setUp(url,showBrowser=True):
 2. 保存下载资源的根目录：
 ```
 #保存资源的根目录
-dir_name = "grc_courses"
+dir_name = "xxx_courses"
 ```
 
 #### 6.说明
